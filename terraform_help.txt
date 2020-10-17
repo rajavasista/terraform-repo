@@ -15,22 +15,13 @@ create a new user terraform_user in aws iam, set access type programmatic access
 assign policy with admin access
 
 aws configure or
-mkdir .aws
-create afile with name credentials
-for mac touch .aws/credentials
-copy paste below lines
+- mkdir .aws
+- create a file with name 'credentials' - vi credentials
+- and then copy paste below lines in .aws/credentials file
 
 [terraform]
 aws_access_key_id = xxxxxxxxxxxxxxxxxxx
 aws_secret_access_key = xxx/xxxxxxxxxxxxx/xxxx
 
 
-
-
-ec2 connector per aws
-virtual scanner per vpc
-cloud agent
-ec2 container security sensor per host
-
-
-splunk enterprise security
+here terraform is the profile in AWS .. 
